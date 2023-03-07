@@ -59,7 +59,7 @@ source .devops/bin/activate
 *	Dockerfile: Contains all the commands a user could use to call on the command line to assemble an image.
 *	requirements.txt: Lists environment dependencies
 *	upload_docker.sh: Bash script to upload the application to Dockerhub
-*	run_docker.sh: Bash script that enables you to get the Docket running, locally
+*	run_docker.sh: Bash script that enables you to get the Docket running, locally.
 *	run_kubernetes.sh: Bash script to run the application in Kubernetes
 *	make_prediction.sh: Bash script that publishes the container’s port to a host port to make predictions
 *	README.md: READme file
