@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Blessing56/UdaProject4-Operationalize_a_ML_-Microservice_API/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Blessing56/UdaProject4-Operationalize_a_ML_-Microservice_API/tree/master)
 
 ## Project Overview
 
@@ -48,3 +48,21 @@ source .devops/bin/activate
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+---
+## Short explanation of the files in the repository
+
+*	model_data : Contains the pretrained sklearn model and csv files
+*	output_txt_files: Includes all your log statements from running ./run_docker.sh and ./run_kubernetes.sh
+*	Makefile : Contains Instructions used for Installing dependencies
+*	app.py : Prints out the pre-trained model prediction as Log.info.
+*	Dockerfile: Contains all the commands a user could use to call on the command line to assemble an image.
+*	requirements.txt: Lists environment dependencies
+*	upload_docker.sh: Bash script to upload the application to Dockerhub
+*	run_docker.sh: Bash script that enables you to get the Docket running, locally
+*	run_kubernetes.sh: Bash script to run the application in Kubernetes
+*	make_prediction.sh: Bash script that publishes the container’s port to a host port to make predictions
+*	README.md: READme file
+
+
+
